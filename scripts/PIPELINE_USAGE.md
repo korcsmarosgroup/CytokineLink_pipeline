@@ -11,7 +11,7 @@ The `unified_pipeline.R` is a more user friendly version of the cytokinelink pip
 ## Requirements
 
 The script expects the following folder / file structure:
-
+```md
 project_folder/
 ├─ scripts/
 │  ├─ unified_pipeline.R
@@ -22,7 +22,7 @@ project_folder/
 │  ├─ **weighted_networks_nsga2r_final.rds**
 │  ├─ **ligand_tf_matrix_nsga2r_final.rds**
 │  ├─ **ligand_target_matrix_nsga2r_final.rds**
-
+```
 The NicheNet prior models highlighted in **bold** need to be downloaded from: https://zenodo.org/records/7074291
 
 - R packages: `tidyverse`, `Seurat`, `nichenetr`

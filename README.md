@@ -1,4 +1,4 @@
-#CytokineLink Pipeline
+# CytokineLink Pipeline
 
 A command line R pipeline for cytokine network inference and validation from single-cell RNA-seq data, as introduced in Olbei et al., 2026. 
 

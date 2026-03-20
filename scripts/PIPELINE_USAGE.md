@@ -18,12 +18,12 @@ project_folder/
 │  ├─ iteratecells.R
 ├─ cytokine_list.tsv
 ├─ rds/
-│  ├─ weighted_networks_nsga2r_final.rds
-│  ├─ ligand_tf_matrix_nsga2r_final.rds
 │  ├─ OP_nichenet_networks.RDS
-│  ├─ ligand_target_matrix_nsga2r_final.rds
+│  ├─ **weighted_networks_nsga2r_final.rds**
+│  ├─ **ligand_tf_matrix_nsga2r_final.rds**
+│  ├─ **ligand_target_matrix_nsga2r_final.rds**
 
-Cloning the repository should do the trick, but it's something to be aware of.
+The NicheNet prior models highlighted in **bold** need to be downloaded from: https://zenodo.org/records/7074291
 
 - R packages: `tidyverse`, `Seurat`, `nichenetr`
 - NicheNet resource files in `../rds/`:

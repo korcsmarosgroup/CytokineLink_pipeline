@@ -23,7 +23,7 @@ project_folder/
 │  ├─ **ligand_tf_matrix_nsga2r_final.rds**
 │  ├─ **ligand_target_matrix_nsga2r_final.rds**
 ```
-The NicheNet prior models highlighted in **bold** need to be downloaded from: https://zenodo.org/records/7074291
+The highlighted NicheNet prior model files need to be downloaded from: https://zenodo.org/records/7074291
 
 - R packages: `tidyverse`, `Seurat`, `nichenetr`
 - NicheNet resource files in `../rds/`:
